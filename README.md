@@ -1,5 +1,5 @@
 # PUM_Composition
 
-Python script to calculate chemical variation of solid and melt phases due to
-partial melting based on Langmuir et al.,1992 and Afons et al., 2008. 
+Python script to calculate the distribution of major oxides into solid and melt phases due to
+decompressional melting as a function of oceanic crust thickness or in other words aggregate percentage of frational melting. Distribution coefficients for major oxides are taken from Langmuir et al.,1992 and is based on Afons et al., 2008. 
 
