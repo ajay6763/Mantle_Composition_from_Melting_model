@@ -22,13 +22,12 @@ Po=2.75; # pressure at intersection of solidus. Essensially pressure at which me
 Pf=0.2;# pressure at which melting stops (P in GPa)
 # these values of Po and Pf are from Asimow et al.,1999,2001 
 ##
-hc=3.0# thickness of oceanic crust
+hc=6.0# thickness of oceanic crust
 
 ## Calculating mean fractional melting
 F_mean= (hc*rho_crust*g)/((Po-Pf)*10**4)/100; # Based on Afonso,s G3 paper about LitMod
+F_mean=0.06
 print("Mean partial fractionation:",F_mean)
-#F_mean=6
-
 #                SiO2  Al2O3   MgO    Fe0    CaO   Na2O
 #PUM Hart and Zindler(1986)
 PUM_J_x_s_o= np.array([45.20, 4.00, 38.30, 7.80,  3.50,  0.36]); # initial concentration of oxides in the original source (wt%)
