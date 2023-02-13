@@ -48,7 +48,7 @@ P=((0.2*10**9)*10**-5)/1000; # Pressure in kilobars
 #SiO2
 bulk_D=np.append(bulk_D,[0.8480 - (0.2200*F_mean)  +  (0.0055*P)])
 #Al2O3
-bulk_D=np.append(bulk_D,[0.1890 - (0.5100*F_mean)  -  ((1.3236*10**-4)*F_mean**(-1))   +  0.0010*P])
+bulk_D=np.append(bulk_D,[0.1890 - (0.5100*F_mean)  -  ((2.5*10**-4)*F_mean**(-1))   +  0.0010*P])
 #MgO
 bulk_D=np.append(bulk_D,5.2000 - (7.5664*F_mean)  -  (0.0594*P))
 #FeO
