@@ -13,10 +13,9 @@ Number of oceneanic crust production cycles 4200/200 = 21
 5. total volume of oceanic crust produced = oceanic are * thickness of oceanic crust
    361.9*1000000*7.5 = 2714250000 km
 
-
-
-
 """
+
+
 rho_crust=2880;# density of oceanic crust in kg/m3
 g=9.8;# accelration due to gravity
 ## Po and Pf are dependent on the composition fugacity oxygen, or presence of wa
